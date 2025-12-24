@@ -61,7 +61,7 @@ def automate_preprocessing(file_path):
 if __name__ == "__main__":
     import os
 
-    INPUT_PATH = "../titanic.csv"
+    INPUT_PATH = "data/titanic.csv"
     OUTPUT_DIR = "processed_data"
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
